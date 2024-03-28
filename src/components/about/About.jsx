@@ -7,10 +7,10 @@ const About = () => {
     <div className="about container">
       <div className="row">
         <div className="col-sm-5">
-          <img src={aboutpic} className="img-fluid" alt="" />
+          <img src={aboutpic} className="img-fluid rounded-3" alt="" />
         </div>
         <div className="col-sm-6">
-          <h6>Easy Coding Tutorial</h6>
+          <h6>Car Max</h6>
           <h5>We Always With you...</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat

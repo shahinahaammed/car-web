@@ -15,7 +15,7 @@ const Header = () => {
           {""}
           Why you Try Buy A Something <span>Cool</span> ?
         </h6>
-        <button className='btn btn-primary'>Read More</button>
+        <button className='btn'>Read More</button>
       </div>
     </div>
   )

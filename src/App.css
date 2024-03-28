@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 /* Global variable */
 :root {
-  --main: #02abff;
+  --main: #970303;
 }
 
 * {
-  font-family: "Reddit Mono", monospace;
+  font-family: "Roboto Slab", serif;
   transition: 0.7s;
 }
 
@@ -18,12 +18,12 @@
 .btn {
   width: 300px;
   background-color: var(--main) !important;
-  color: #fff;
+  color: #fff !important;
   border-radius: 15px;
 }
 
 .btn:hover {
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   width: 320px;
 }
 

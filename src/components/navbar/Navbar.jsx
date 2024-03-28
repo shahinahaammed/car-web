@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isNavbar, setIsNavbar] = useState(false);
@@ -11,17 +11,23 @@ const Navbar = () => {
       } else {
         setIsNavbar(false);
       }
-    }
+    };
 
-    window.addEventListener('scroll', changeBg);
+    window.addEventListener("scroll", changeBg);
 
     return () => {
-      window.removeEventListener('scroll', changeBg);
+      window.removeEventListener("scroll", changeBg);
     };
   }, []);
 
   return (
-    <nav className={isNavbar ? "navbar navbar-expand fixed-top active" : "navbar navbar-expand fixed-top"}>
+    <nav
+      className={
+        isNavbar
+          ? "navbar navbar-expand fixed-top active"
+          : "navbar navbar-expand fixed-top"
+      }
+    >
       <a href="#" className="navbar-brand">
         <span>C</span>ar Max
       </a>
@@ -53,6 +59,8 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div>
       </div>
     </nav>
   );

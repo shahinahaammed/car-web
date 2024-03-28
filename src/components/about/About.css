@@ -19,3 +19,7 @@
     font-weight: 600;
     margin: 20px auto;
 }
+
+.col-sm-5:hover {
+    transition: margin-right 2s;
+}

@@ -6,6 +6,12 @@
     border: 2px solid #000 ;
     border-top: none !important;
     overflow: hidden;
+    border-radius: 10px;
+}
+
+.details .box:hover {
+    transform: translate(-20px,-20px);
+    cursor: pointer;
 }
 
 .details img {

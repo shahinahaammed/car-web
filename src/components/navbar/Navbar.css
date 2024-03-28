@@ -6,7 +6,7 @@
 }
 
 .navbar.active{
-    background: #000;
+    background: #1a1717;
     padding: 10px;
 }
 .navbar-brand {
@@ -16,7 +16,7 @@
 }
 .navbar-brand span{
     font-size: 2rem;
-    color: #2879f2 !important;
+    color: var(--main) !important;
 }
 
 .navbar-nav {
@@ -30,5 +30,10 @@
 }
 
 .nav-link:hover {
-    color: (--main) !important;
+    color: var(--main) !important;
+}
+
+.nav-item{
+    font-size: larger;
+    font-weight: 600;
 }
