@@ -6,6 +6,7 @@ const Second = () => {
     <div className='second'>
         <div>
             <img src={SecondHeaderImg} alt="" />
+            <p className='text-content'><i>You <span>win</span>  some, you lose some, you <span>wreck</span>  some</i></p>
         </div>
         <div className='Overlay'></div>
     </div>

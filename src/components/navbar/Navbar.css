@@ -2,7 +2,8 @@
     padding: 20px;
     display: flex;
     justify-content: space-between !important;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 
 .navbar.active{

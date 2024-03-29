@@ -3,6 +3,7 @@ import "./About.css";
 import aboutpic from "../../images/5.png";
 
 const About = () => {
+
   return (
     <div className="about container">
       <div className="row">

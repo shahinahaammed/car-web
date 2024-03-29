@@ -13,7 +13,7 @@ const Header = () => {
       <div className='Content'>
         <h6>
           {""}
-          Why you Try Buy A Something <span>Cool</span> ?
+          Why you Try Buy A Something <br /> <span>Cool</span> ?
         </h6>
         <button className='btn'>Read More</button>
       </div>
